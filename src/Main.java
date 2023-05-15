@@ -55,7 +55,7 @@ public class Main {
 
                         Disciplina disciplina = new Disciplina();
                         disciplina.setDisciplina(nomeDaDisciplina);
-                        disciplina.setNota(Double.parseDouble(notaDisciplina));
+                       // disciplina.setNota(Double.parseDouble(notaDisciplina));
 
                         aluno1.getDisciplinas().add(disciplina);
                     }
@@ -87,7 +87,7 @@ public class Main {
 
                         Disciplina disciplina = new Disciplina();
                         disciplina.setDisciplina("Matematica");
-                        disciplina.setNota(88.0);
+                      //  disciplina.setNota(88.0);
 
                         trocar.getDisciplinas().add(disciplina);
 

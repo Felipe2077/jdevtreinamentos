@@ -24,6 +24,14 @@ public class Disciplina {
         this.disciplina = disciplina;
     }
 
+    public double getMediaNotas(){
+        double somaTotal = 0;
+        for (int posicao = 0; posicao < nota.length; posicao++){
+                somaTotal += nota[posicao];
+        }
+        return somaTotal / nota.length;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
