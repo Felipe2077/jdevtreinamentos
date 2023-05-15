@@ -6,9 +6,8 @@ public class ArrayVetor {
 
     public static void main(String[] args) {
 
-        double[] notasJava = {8.8, 7.8, 6.9, 8.8};
-        double[] notasLogica = {5.8, 6.8, 2.9, 9.8};
-
+        double[] notasJava = {8.8, 2.0, 1.9, 1.8};
+        double[] notasLogica = {1.7, 9.9, 0.8, 9.8};
 
         /*Criação  do aluno*/
         Aluno aluno = new Aluno();
@@ -28,7 +27,7 @@ public class ArrayVetor {
 
         System.out.println("Nome do aluno: " + aluno.getNome() + " inscrito no curso: " + aluno.getNomeEscola());
         System.out.println("----------------Disciplinas do aluno----------------");
-        
+
         //*primeiro for percorre a lista de disciplina
         for (Disciplina disci : aluno.getDisciplinas()) {
             System.out.println("Disciplina: " + disci.getDisciplina());
