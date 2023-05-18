@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="array multidimensional">
+    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="algoritimo para imprimir matriz">
+      <change afterPath="$PROJECT_DIR$/src/cursojava/threads/Threads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/executaveis/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/executaveis/Matriz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +56,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684419404444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="algoritimo para imprimir matriz">
+      <created>1684432624069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684432624069</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="array multidimensional" />
-    <option name="LAST_COMMIT_MESSAGE" value="array multidimensional" />
+    <MESSAGE value="algoritimo para imprimir matriz" />
+    <option name="LAST_COMMIT_MESSAGE" value="algoritimo para imprimir matriz" />
   </component>
 </project>
