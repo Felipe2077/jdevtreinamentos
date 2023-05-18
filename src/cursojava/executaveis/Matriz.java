@@ -1,5 +1,7 @@
 package cursojava.executaveis;
 
+import java.util.Arrays;
+
 public class Matriz {
 
     public static void main(String[] args) {
@@ -23,10 +25,36 @@ public class Matriz {
         notas[3][0] = 90;
         notas[3][1] = 80;
         notas[3][2] = 88;
-        notas[2][3] = 99;
+        notas[3][3] = 99;
 
 
-        System.out.println(notas);
+        for (int countLinha =0; countLinha < notas.length; countLinha++){
+            int linhaTemporaria = countLinha == 0 ? 0 : countLinha -1 ; // variavel temporária para armazenar o index anterior no loop, para comparação.
+
+            //loop na coluna
+            for (int countColuna =0; countColuna < notas[countLinha].length; countColuna++){
+
+                if (countLinha == linhaTemporaria){ // Se a linha atual for igual a temporaria
+
+                    //imprime a linha sem quebra
+                    System.out.print(notas[countLinha][countColuna]+" ");
+
+                }else{// caso a linha atual for diferente da anterior, significa que estamos em uma linha diferente
+
+                    //quebra de linha vazia
+                    System.out.println("");
+
+                    //imprime a linha sem quebra
+                    System.out.print(notas[countLinha][countColuna]+" ");
+
+                    //atualiza a linha anterior para que fique igual a atual
+                    linhaTemporaria = countLinha;
+                }
+
+            }
+
+
+        }
 
     }
 }
