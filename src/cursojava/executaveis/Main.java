@@ -1,3 +1,5 @@
+package cursojava.executaveis;
+
 import cursojava.classes.Aluno;
 import cursojava.classes.Disciplina;
 import cursojava.constantes.StatusAluno;
