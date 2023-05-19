@@ -2,13 +2,12 @@ package cursojava.threads;
 
 public class Threads {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-      Thread.sleep(1000);
-        for (int i = 0; i < 10 ; i++) {
+        for (int i = 0; i < 10; i++) {
+            Thread.sleep(1000);
 
-            Thread.
-                    System.out.println("Enviando o email...");
+            System.out.println("Enviando o email...");
         }
     }
 }
