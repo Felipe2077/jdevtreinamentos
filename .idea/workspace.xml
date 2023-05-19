@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cursojava/threads/ExecutarTela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/threads/Threads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/threads/Threads.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684502647186</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="14.5 - Thread em objeto e o Runnable">
+      <created>1684505987920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684505987920</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +142,7 @@
     <MESSAGE value="algoritimo para imprimir matriz" />
     <MESSAGE value=" Criando a primeira Thread" />
     <MESSAGE value="14.4 - Processamento concorrente entre duas Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.4 - Processamento concorrente entre duas Thread" />
+    <MESSAGE value="14.5 - Thread em objeto e o Runnable" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.5 - Thread em objeto e o Runnable" />
   </component>
 </project>
