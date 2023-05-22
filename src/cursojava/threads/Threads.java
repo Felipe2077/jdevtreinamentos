@@ -5,7 +5,6 @@ import javax.swing.*;
 public class Threads {
 
     public static void main(String[] args) throws InterruptedException {
-
         //*processo paralelo para o envio de email
         Thread threadEmail = new Thread(thread1);
         threadEmail.start();
@@ -32,7 +31,7 @@ public class Threads {
         }
     };
 
-    public static Runnable thread2 = new Runnable() {
+    private static Runnable thread2 = new Runnable() {
         @Override
         public void run() {
             for (int i = 0; i < 10; i++) {
