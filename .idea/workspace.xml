@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/ApiDateTime/DatasEmJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/ApiDateTime/DatasEmJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684765367062</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="15.2 - Formatando datas com o SimpleDateFormat">
+      <created>1684766174995</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684766174995</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +189,7 @@
     <MESSAGE value="14.11 - Criando a Fila e Pilha para processar paralelo em Thread" />
     <MESSAGE value="14.12 - Implementação do processo de Fila e Pilha com Thread" />
     <MESSAGE value="15.1 - Conhecendo o Objeto Date" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.1 - Conhecendo o Objeto Date" />
+    <MESSAGE value="15.2 - Formatando datas com o SimpleDateFormat" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.2 - Formatando datas com o SimpleDateFormat" />
   </component>
 </project>
