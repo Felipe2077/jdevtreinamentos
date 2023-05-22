@@ -2,6 +2,10 @@ package cursojava.threads;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class TelaTimeThread extends JDialog {
 
@@ -15,6 +19,22 @@ public class TelaTimeThread extends JDialog {
 
     private JButton jButton = new JButton("start");
     private JButton jButton2 = new JButton("stop");
+
+    private Runnable thread1 = new Runnable() {
+        @Override
+        public void run() {
+            while (true){
+                mostraTempo.setText(new SimpleDateFormat("dd/MM/yyyy hh:mm.ss").format(Calendar.getInstance().getTime()));
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
+    };
+
+    private Thread thread1Time;
 
 
     public TelaTimeThread() {
@@ -57,6 +77,21 @@ public class TelaTimeThread extends JDialog {
        jButton2.setPreferredSize(new Dimension(92,25));
         gridBagConstraints.gridx++;
         jPanel.add(jButton2, gridBagConstraints);
+
+        jButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                thread1Time = new Thread(thread1);
+                thread1Time.start();
+            }
+        });
+
+        jButton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                thread1Time.stop();
+            }
+        });
 
 
         add(jPanel, BorderLayout.WEST);
