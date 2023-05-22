@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="AULA - Controlando a Thead 2 com Start e Stop">
-      <change afterPath="$PROJECT_DIR$/src/cursojava/threads/ImplementacaoFilaThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursojava/threads/ObjetoFilaThread.java" afterDir="false" />
+    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursojava/threads/ImplementacaoFilaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/threads/ImplementacaoFilaThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684756622200</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="14.11 - Criando a Fila e Pilha para processar paralelo em Thread">
+      <created>1684759251595</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684759251595</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +166,8 @@
     <MESSAGE value="14.5 - Thread em objeto e o Runnable" />
     <MESSAGE value="14.10 - Controlando a Thead 2 com Start e Stop" />
     <MESSAGE value="AULA - Controlando a Thead 2 com Start e Stop" />
-    <option name="LAST_COMMIT_MESSAGE" value="AULA - Controlando a Thead 2 com Start e Stop" />
+    <MESSAGE value="AULA - Criando a Fila e Pilha para processar paralelo em Thread" />
+    <MESSAGE value="14.11 - Criando a Fila e Pilha para processar paralelo em Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.11 - Criando a Fila e Pilha para processar paralelo em Thread" />
   </component>
 </project>
