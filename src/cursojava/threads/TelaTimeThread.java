@@ -37,6 +37,7 @@ public class TelaTimeThread extends JDialog {
     private Runnable thread2 = new Runnable() {
         @Override
         public void run() {
+
             while (true){
                 mostraTempo2.setText(new SimpleDateFormat("dd/MM/yyyy hh:mm:ss").format(Calendar.getInstance().getTime()));
                 try {
