@@ -2,6 +2,8 @@ package cursojava.ApiDateTime;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.logging.SimpleFormatter;
@@ -74,6 +76,14 @@ public class DatasEmJava {
         }else{
           //  System.out.println("Boleto vencido");
         }
+
+        /*-------------------------------- Dias entre datas -----------------------*/
+
+       // Date dataPassada = new SimpleDateFormat("dd/MM/yyyy").parse("01/02/2021");
+
+       long dias = ChronoUnit.DAYS.between(LocalDate.parse("2023-05-20"), LocalDate.now());
+
+        System.out.println("Possui "+dias+" dias entre datas");
 
     }
 }

@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684848022485</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="15.5 - Calculo de dia, ano e mês com Calendar">
+      <created>1684848813171</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684848813171</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +233,7 @@
     <MESSAGE value="15.1 - Conhecendo o Objeto Date" />
     <MESSAGE value="15.2 - Formatando datas com o SimpleDateFormat" />
     <MESSAGE value="15.4 - After e Before comparando datas menores e maiores" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.4 - After e Before comparando datas menores e maiores" />
+    <MESSAGE value="15.5 - Calculo de dia, ano e mês com Calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.5 - Calculo de dia, ano e mês com Calendar" />
   </component>
 </project>
