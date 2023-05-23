@@ -10,7 +10,7 @@ public class DatasEmJava {
     public static void main(String[] args) throws ParseException {
         Date date = new Date();
 
-        Calendar calendar = Calendar.getInstance();
+        Calendar calendar = Calendar.getInstance();//*pega a data atual
 //
 //        System.out.println("Data em milisegundos: "+date.getTime());
 //        System.out.println("Calendar em milisegundos: "+calendar.getTimeInMillis());
@@ -31,6 +31,19 @@ public class DatasEmJava {
 //
 //        System.out.println("segundos: "+date.getSeconds());
 //        System.out.println("segundos: "+calendar.get(Calendar.SECOND));
+
+        //* Simulando a data que vem do banco de dados.
+
+        calendar.setTime(new SimpleDateFormat("dd/MM/yyy").parse("10/03/2021"));
+
+        calendar.add(Calendar.DAY_OF_WEEK, 5); //*Data de hoje mais 5 dias
+
+        System.out.println(new SimpleDateFormat("dd-MM-yyy").format(calendar.getTime()));
+
+        calendar.add(Calendar.MONTH, 5); //*Data de hoje mais 5 MESES
+
+        System.out.println(new SimpleDateFormat("dd-MM-yyy").format(calendar.getTime()));
+
 
 
 
@@ -57,9 +70,9 @@ public class DatasEmJava {
         Date dataAtualHoje = dataSimples.parse("23/05/2023");
 
         if (dataVencimentoBoleto.after(dataAtualHoje)){
-            System.out.println("Boleto não vencido");
+           // System.out.println("Boleto não vencido");
         }else{
-            System.out.println("Boleto vencido");
+          //  System.out.println("Boleto vencido");
         }
 
     }

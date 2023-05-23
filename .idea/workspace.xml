@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684776304058</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="15.4 - After e Before comparando datas menores e maiores">
+      <created>1684848022485</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684848022485</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +225,7 @@
     <MESSAGE value="14.12 - Implementação do processo de Fila e Pilha com Thread" />
     <MESSAGE value="15.1 - Conhecendo o Objeto Date" />
     <MESSAGE value="15.2 - Formatando datas com o SimpleDateFormat" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.2 - Formatando datas com o SimpleDateFormat" />
+    <MESSAGE value="15.4 - After e Before comparando datas menores e maiores" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.4 - After e Before comparando datas menores e maiores" />
   </component>
 </project>
