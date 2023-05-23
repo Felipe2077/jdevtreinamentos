@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684850858951</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="15.8 - Nova API de Data e Hora do Java">
+      <created>1684852063230</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684852063230</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +256,7 @@
     <MESSAGE value="15.4 - After e Before comparando datas menores e maiores" />
     <MESSAGE value="15.5 - Calculo de dia, ano e mês com Calendar" />
     <MESSAGE value="15.7 - Gerando parcelas mensais e suas datas" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.7 - Gerando parcelas mensais e suas datas" />
+    <MESSAGE value="15.8 - Nova API de Data e Hora do Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.8 - Nova API de Data e Hora do Java" />
   </component>
 </project>
