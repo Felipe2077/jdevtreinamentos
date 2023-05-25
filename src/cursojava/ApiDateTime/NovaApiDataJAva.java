@@ -13,7 +13,7 @@ import java.time.temporal.TemporalUnit;
 public class NovaApiDataJAva {
     public static void main(String[] args) throws ParseException {
 
-        /*Nova API de data a partir do Java 8*/
+        //*Nova API de data a partir do Java 8*/
         LocalDate dataAtual = LocalDate.now();
 
         LocalDate vencimento = LocalDate.of(2023,05,20);
