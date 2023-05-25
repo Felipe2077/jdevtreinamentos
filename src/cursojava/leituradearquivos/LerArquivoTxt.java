@@ -8,30 +8,30 @@ import java.util.List;
 import java.util.Scanner;
 
 public class LerArquivoTxt {
-   public static void main(String[] args) throws FileNotFoundException {
-      FileInputStream entradaArquivo = new FileInputStream(new File("/home/felipe-cpd/IdeaProjects/jdevtreinamentos/arquivo.txt"));
+    public static void main(String[] args) throws FileNotFoundException {
+        FileInputStream entradaArquivo = new FileInputStream(new File("/home/felipe-cpd/IdeaProjects/jdevtreinamentos/arquivo.csv"));
 
-      Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8");
+        Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8");
 
-      List<Pessoa> pessoas = new ArrayList<Pessoa>();
+        List<Pessoa> pessoas = new ArrayList<Pessoa>();
 
-      while (lerArquivo.hasNext()) {
-         String linha = lerArquivo.nextLine();
-         if (linha != null && !linha.isEmpty()) {
-            String[] dados = linha.split("\\;");
-            Pessoa pessoa = new Pessoa();
-            pessoa.setNome(dados[0]);
-            pessoa.setEmail(dados[1]);
-            pessoa.setIdade(Integer.parseInt(dados[2]));
+        while (lerArquivo.hasNext()) {
+            String linha = lerArquivo.nextLine();
+            if (linha != null && !linha.isEmpty()) {
+                String[] dados = linha.split("\\;");
+                Pessoa pessoa = new Pessoa();
+                pessoa.setNome(dados[0]);
+                pessoa.setEmail(dados[1]);
+                pessoa.setIdade(Integer.parseInt(dados[2]));
 
-            pessoas.add(pessoa);
-         }
-      }
+                pessoas.add(pessoa);
+            }
+        }
 
-      for (Pessoa pessoa : pessoas) {
-         System.out.println(pessoa);
-      }
+        for (Pessoa pessoa : pessoas) {
+            System.out.println(pessoa);
+        }
 
-   }
+    }
 
 }

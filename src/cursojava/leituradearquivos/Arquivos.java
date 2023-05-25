@@ -34,7 +34,7 @@ public class Arquivos {
     pessoas.add(pessoa3);
 
 
-    File arquivo = new File("/home/felipe-cpd/IdeaProjects/jdevtreinamentos/arquivo.txt");
+    File arquivo = new File("/home/felipe-cpd/IdeaProjects/jdevtreinamentos/arquivo.csv");
 
     if (!arquivo.exists()) {
       arquivo.createNewFile();
@@ -52,5 +52,9 @@ public class Arquivos {
     escrever_no_arquivo.flush();
     escrever_no_arquivo.close();
 
+    
+
+
   }
+
 }

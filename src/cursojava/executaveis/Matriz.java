@@ -1,7 +1,5 @@
 package cursojava.executaveis;
 
-import java.util.Arrays;
-
 public class Matriz {
 
     public static void main(String[] args) {

@@ -3,8 +3,6 @@ package cursojava.executaveis;
 import cursojava.classes.Aluno;
 import cursojava.classes.Disciplina;
 
-import javax.swing.*;
-
 public class ArrayVetor {
 
     public static void main(String[] args) {
