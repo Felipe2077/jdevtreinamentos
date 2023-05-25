@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/Arquivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/Pessoa.java" afterDir="false" />
+    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="16.1 - Escrevendo em arquivo de TXT">
+      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/LerArquivoTxt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684852063230</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="16.1 - Escrevendo em arquivo de TXT">
+      <created>1685019138675</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685019138675</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +264,8 @@
     <MESSAGE value="15.5 - Calculo de dia, ano e mês com Calendar" />
     <MESSAGE value="15.7 - Gerando parcelas mensais e suas datas" />
     <MESSAGE value="15.8 - Nova API de Data e Hora do Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.8 - Nova API de Data e Hora do Java" />
+    <MESSAGE value="16.1 - Escrevendo em arquivo de TXT" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.1 - Escrevendo em arquivo de TXT" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
