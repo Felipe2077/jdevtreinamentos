@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="&#10;16.3 - Lendo arquivo TXT e criando lista de objetos">
+    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="16.4 - Escrevendo e lendo CSV planilha Excel">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/ApachePoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/ApiDateTime/DatasEmJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/ApiDateTime/DatasEmJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/ApiDateTime/NovaApiDataJAva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/classes/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/executaveis/ArrayVetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/executaveis/ArrayVetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/executaveis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/executaveis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/executaveis/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/executaveis/Matriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/leituradearquivos/Arquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/Arquivos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/leituradearquivos/LerArquivoTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/LerArquivoTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdevtreinamentos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdevtreinamentos.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DatasEmJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cursojava.ApiDateTime.DatasEmJava" />
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685023678577</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="16.4 - Escrevendo e lendo CSV planilha Excel">
+      <created>1685024756017</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685024756017</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +293,8 @@
     <MESSAGE value="16.1 - Escrevendo em arquivo de TXT" />
     <MESSAGE value="16.2 - Lendo as linhas do arquivo de TXT" />
     <MESSAGE value="&#10;16.3 - Lendo arquivo TXT e criando lista de objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;16.3 - Lendo arquivo TXT e criando lista de objetos" />
+    <MESSAGE value="16.4 - Escrevendo e lendo CSV planilha Excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.4 - Escrevendo e lendo CSV planilha Excel" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
