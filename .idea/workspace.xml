@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="16.4 - Escrevendo e lendo CSV planilha Excel">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/ApachePoi.java" afterDir="false" />
+    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="metade da aula:  Criando Planilha Excel XLS com Apache POI">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_javadoc__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_sources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_test_sources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/poi-5.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/arquivo_excel.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_5_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdevtreinamentos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdevtreinamentos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursojava/leituradearquivos/ApachePoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/ApachePoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
+    <configuration name="ApachePoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cursojava.leituradearquivos.ApachePoi" />
+      <module name="jdevtreinamentos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cursojava.leituradearquivos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DatasEmJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cursojava.ApiDateTime.DatasEmJava" />
       <module name="jdevtreinamentos" />
@@ -60,8 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="commons-math3-3.6.1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/commons-math3-3.6.1.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="poi-5.2.2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/poi-5.2.2.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.poi-5.2.2.jar" />
+        <item itemvalue="Application.ApachePoi" />
+        <item itemvalue="JAR Application.commons-math3-3.6.1.jar" />
         <item itemvalue="Application.DatasEmJava" />
       </list>
     </recent_temporary>
@@ -257,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685024756017</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="metade da aula:  Criando Planilha Excel XLS com Apache POI">
+      <created>1685041197284</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685041197285</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +317,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="array multidimensional" />
     <MESSAGE value="AULA - Tempo de interrupção sleep" />
     <MESSAGE value="threads" />
@@ -294,10 +340,24 @@
     <MESSAGE value="16.2 - Lendo as linhas do arquivo de TXT" />
     <MESSAGE value="&#10;16.3 - Lendo arquivo TXT e criando lista de objetos" />
     <MESSAGE value="16.4 - Escrevendo e lendo CSV planilha Excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.4 - Escrevendo e lendo CSV planilha Excel" />
+    <MESSAGE value="metade da aula:  Criando Planilha Excel XLS com Apache POI" />
+    <option name="LAST_COMMIT_MESSAGE" value="metade da aula:  Criando Planilha Excel XLS com Apache POI" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jdevtreinamentos$.ic" NAME=" Coverage Results" MODIFIED="1685103495672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

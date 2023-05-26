@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="poi-5.2.3">
+  <library name="commons-io-2.12.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/poi-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.12.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
