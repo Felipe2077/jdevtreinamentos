@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="metade da aula:  Criando Planilha Excel XLS com Apache POI">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_javadoc__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_test_sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_12_0_tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-math3-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-5.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/arquivo_excel.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_5_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_0_0.xml" afterDir="false" />
+    <list default="true" id="c4304c6b-dae0-4dd7-bf26-ec6accb916c6" name="Changes" comment="16.5 - Criando Planilha Excel XLS com Apache POI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdevtreinamentos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdevtreinamentos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cursojava/leituradearquivos/ApachePoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/leituradearquivos/ApachePoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cursojava/threads/TelaTimeThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +39,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/felipe-cpd/Documentos/SistemaEscolar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ApachePoi">
     <configuration name="ApachePoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cursojava.leituradearquivos.ApachePoi" />
       <module name="jdevtreinamentos" />
@@ -302,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685041197285</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="16.5 - Criando Planilha Excel XLS com Apache POI">
+      <created>1685104629719</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685104629719</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +334,8 @@
     <MESSAGE value="&#10;16.3 - Lendo arquivo TXT e criando lista de objetos" />
     <MESSAGE value="16.4 - Escrevendo e lendo CSV planilha Excel" />
     <MESSAGE value="metade da aula:  Criando Planilha Excel XLS com Apache POI" />
-    <option name="LAST_COMMIT_MESSAGE" value="metade da aula:  Criando Planilha Excel XLS com Apache POI" />
+    <MESSAGE value="16.5 - Criando Planilha Excel XLS com Apache POI" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.5 - Criando Planilha Excel XLS com Apache POI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

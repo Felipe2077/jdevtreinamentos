@@ -6,19 +6,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TelaTimeThread extends JDialog {
-
     private JPanel jPanel = new JPanel(new GridBagLayout());
-
     private  JLabel descricaoHora = new JLabel("Nome");
     private JTextField mostraTempo = new JTextField();
-
     private  JLabel descricaoHora2 = new JLabel("Email");
     private JTextField mostraTempo2 = new JTextField();
-
     private JButton jButton = new JButton("Add lista");
     private JButton jButton2 = new JButton("stop");
-
-
     private ImplementacaoFilaThread fila = new ImplementacaoFilaThread();
 
 
